@@ -1,0 +1,9 @@
+{
+    "name": "piotr/untitled",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "require": {}
+}
