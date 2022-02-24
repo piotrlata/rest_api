@@ -36,9 +36,6 @@ class ProductController
             $product->load($productData);
             $product->save();
         }
-        echo '<pre>';
-        var_dump($productData);
-        echo '</pre>';
         $router->renderView("products/create", [
             'product' => $productData,
             'errors' => $errors
